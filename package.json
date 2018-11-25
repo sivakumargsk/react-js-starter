@@ -1,0 +1,23 @@
+{
+  "name": "parcel-js-starter",
+  "version": "1.0.0",
+  "description": "A starter project for JavaScript development using ES6",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "Siva Kumaar GSK",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "parcel-bundler": "^1.10.3"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
